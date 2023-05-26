@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+header{
+    background-image: url("../img/codeFondo.jpg");
+    background-size: cover;
+}
+
+header img{
+    border-radius: 20px;
+    display: block;
+    height: 150px;
+    margin: auto;
+    width: 150px;
+}
+
+h1{
+    background-color: #012650;
+    color: #FFF;
+    letter-spacing: 7px;
+    margin: 0;
+    padding: 15px 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+header nav{
+    background-color: #70747A;
+    padding: 10px 5px;
+}
+
+header nav ul{
+    text-align: center;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin: 15px 10px;
+}
+
+header nav a{
+    background-color: #113156;
+    border-radius: 10px;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 7px 10px;
+    text-decoration: none;
+}
+
+main{
+    margin: 25px 0;
+}
+
+main section{
+    display: block;
+    margin: auto;
+    width: 33%;
+}
+
+main section h2{
+    background-color: #012650;
+    color: #FFF;
+    letter-spacing: 5px;
+    margin: 0;
+    padding: 5px 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+li span{
+    font-weight: bold;
+}
+
+footer nav{
+    background-color: #113156;
+    padding: 5px 5px;
+}
+
+footer nav ul{
+    text-align: center;
+}
+
+footer nav ul li{
+    display: inline-block;
+    margin: 5px 10px;
+}
+
+footer nav ul li p{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer nav ul li a{
+    color: #FFF;
+    font-size: 25px;
+}
